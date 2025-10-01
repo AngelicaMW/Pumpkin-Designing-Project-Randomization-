@@ -37,7 +37,8 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(500, 600);
+  let canvas=createCanvas(500, 600); 
+  canvas.parent ("project1")
 
   //define bgColor variables
   bgColor1 = color(255, 182, 79);
